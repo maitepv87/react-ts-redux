@@ -8,9 +8,10 @@ export type CartItem = {
   quantity: number;
 };
 
-type CartState = {
+// Define a type for the slice state
+interface CartState {
   items: CartItem[];
-};
+}
 
 const initialState: CartState = {
   items: [],

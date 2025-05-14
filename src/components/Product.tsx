@@ -1,4 +1,5 @@
-import { useDispatch } from "react-redux";
+// import { useDispatch } from "react-redux";
+import { useAppDispatch } from "../store/hooks.ts";
 import { addToCart } from "../store/slices/cart";
 
 type ProductProps = {
@@ -16,7 +17,8 @@ export const Product = ({
   price,
   description,
 }: ProductProps) => {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
 
   const handleAddToCart = () => {
     dispatch(addToCart({ id, title, price }));
