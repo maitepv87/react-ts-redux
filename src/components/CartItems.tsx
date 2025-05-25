@@ -1,5 +1,5 @@
 import { useAppDispatch, useAppSelector } from "../store/hooks.ts";
-import { addToCart, removeFromCart, type CartItem } from "../store/slices/cart";
+import { addToCart, removeFromCart, type CartItem } from "../store/slices/cartSlice.ts";
 
 export const CartItems = () => {
   const dispatch = useAppDispatch();

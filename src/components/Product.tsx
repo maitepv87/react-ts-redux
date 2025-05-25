@@ -1,6 +1,6 @@
 // import { useDispatch } from "react-redux";
 import { useAppDispatch } from "../store/hooks.ts";
-import { addToCart } from "../store/slices/cart";
+import { addToCart } from "../store/slices/cartSlice.ts";
 
 type ProductProps = {
   id: string;
