@@ -1,4 +1,4 @@
-# React TS Redux Toolkit   
+# RTK-SyncLab-02  
 
 ## About  
 
